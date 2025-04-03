@@ -34,4 +34,4 @@ app.use("/api/posts", userRoutes);
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
-console.log('JWT Secret:', process.env.JWT_SECRET); // Debugging
+console.log('JWT Secret:', process.env.JWT_PRIVATE_KEY); // Debugging
