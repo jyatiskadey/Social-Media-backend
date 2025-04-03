@@ -16,6 +16,7 @@ const { default: mongoose } = require("mongoose");
 // Adjust the path according to your file structure
 
 require("dotenv").config();
+
 // Configure Cloudinary
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,
